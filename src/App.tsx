@@ -6,6 +6,8 @@ import ReducerSample from './ReducerSample';
 import RefSample from './RefSample';
 import TodoForm from './ContextAPI/TodoForm';
 import TodoList from './ContextAPI/TodoList';
+import ReduxTodoInsert from './Redux/TodoInsert';
+import ReduxTodoList from './Redux/TodoList';
 import { TodosContextProvider } from './ContextAPI/contexts/TodoContext';
 import ReduxCounter from './ReduxCounter';
 
@@ -31,6 +33,10 @@ function App() {
       </div>
       <div>
         <ReduxCounter />
+      </div>
+      <div>
+        <ReduxTodoInsert />
+        <ReduxTodoList />
       </div>
     </>
   );
